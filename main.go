@@ -15,7 +15,7 @@ func init() {
 
 func main() {
 	flag.Parse()
-	fmt.Println(flag.Args(), validateArgs())
+	fmt.Println("userName", userName)
 }
 
 func validateArgs() error {
